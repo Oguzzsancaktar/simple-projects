@@ -18,3 +18,8 @@
 - createSlice() => accepts an object of reducer funtions a slice name and an initial state value and automatically generates a slice reducer with corresponding action creators and action types
 - createAsyncThunk() => accepts an action type string and a function that returns promise and generates a thunk that dispatches pending/fullfilled/rejected action types based on that promise.
 - createEntityAdapter() => generates a set of reausable reducers and selectors to manage normalized data the store  
+
+### React Router Dom 
+- We are not using switch anymore 
+- Nowadays switch deprecated and we will use routes instead of switch and routes includes child component route
+- We need to bring routes with BrowserRouter
